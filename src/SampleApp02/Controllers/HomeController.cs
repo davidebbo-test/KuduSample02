@@ -22,7 +22,7 @@ namespace SampleApp02.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = ClassLibrary.Class1.Help();
 
             return View();
         }
